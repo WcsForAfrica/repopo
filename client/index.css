@@ -42,6 +42,15 @@ h4 {
   margin: 0;
 }
 
+h3 {
+  font-weight: 800;
+}
+
+p.side_title {
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 20px;
+}
+
 /*JE PROPOSE*/
 
 .prop {
@@ -77,9 +86,9 @@ a:visited {
   color: black;
 }
 
-h4:hover, a:hover:not(.logo) {
+/*h4:hover, a:hover:not(.logo) {
   border-bottom: 10px solid #22B573;
-}
+}*/
 
 /*Sidebar*/
 .sidebar {
@@ -151,7 +160,16 @@ header nav a {
   height: 12.5rem;
 }
 
-
+.container {
+max-width: 800px;
+margin-left: 5% auto;
+padding: 20px;
+opacity: 0.9;
+border-radius: 10px;
+overflow: hidden;
+box-sizing: border-box;
+box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+}
 /** {
   padding: 5px;
   margin: 5px;
