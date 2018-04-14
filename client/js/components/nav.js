@@ -6,21 +6,20 @@ const action = (actionText, actionLink) => `
 
 const topBarLogo = () => `
   <div id="header-logo">
-    <h5 class="itw">IT<span>W</span></h5>
+    <h5 class="itw">TRUST<span>EE</span></h5>
   </div>
 `
 
 const profil = props => `
   <div id="profil">
-    X
+    <img src=images/logo.png>
   </div>
 `
 
 export const createHeader = props => `
   <nav>
     ${profil(props)}
-    ${action('JE PARTICIPE', '#')}
-    ${action('JE PROPOSE', '#')}
+    ${action('HOME', 'index.html')}
     ${topBarLogo()}
   </nav>
 `
